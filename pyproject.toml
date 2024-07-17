@@ -1,6 +1,6 @@
 [project]
 name = "team_mul"
-version = "0.1.0"
+version = "0.1.1"
 description = "Default template for PDM package"
 authors = [
     {name = "Kimwonjoon", email = "kimpass189@gmail.com"},
@@ -15,4 +15,4 @@ license = {text = "MIT"}
 distribution = true
 
 [project.scripts]
-m = "team_mul.mul:mul"
+t_mul = "team_mul.mul:main"
